@@ -17,7 +17,7 @@ var myLines = [{
       //  This is a geojson line. You can go to geojson.io to create unique geojson features.
 
 var myStyle = {
-    "color": "#ff7800",
+    "color": "powderblue",
     "weight": 5,
     "opacity": 0.65
 };
@@ -30,8 +30,8 @@ L.geoJSON(myLines, {
 }).addTo(map);
 
 var sampleSite = {
-    radius: 3,
-    fillColor: "blue",
+    radius: 5,
+    fillColor: "#3D9970",
     color: "#000",
     weight: 1,
     opacity: 1,
